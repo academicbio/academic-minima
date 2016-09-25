@@ -1,6 +1,6 @@
-title: Your awesome title
-author: Mr. GitHub User
-email: your-email@domain.com
+title: Prof. Hubert J. Farnsworth
+author: Prof. Hubert J. Farnsworth
+email: hfarnsworth@example.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -9,9 +9,14 @@ baseurl: "/minima"
 twitter_username: jekyllrb
 github_username:  jekyll
 
+profile_picture: profile.jpeg
+
+institute_name: Mars University
+institute_logo: logo.jpg
+
 # Build settings
 markdown: kramdown
-theme: minima
+theme: academic-minima
 exclude:
   - Gemfile
   - Gemfile.lock
