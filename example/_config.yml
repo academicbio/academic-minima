@@ -21,3 +21,144 @@ theme: academic-minima
 exclude:
   - Gemfile
   - Gemfile.lock
+  
+papers:
+    - authors:
+      - A. Ekici
+      - S. Chadburn
+      - N. Chaudhary
+      - L. H. Hajdu
+      - A. Marmy
+      - S. Peng
+      - J. Boike
+      - E. Burke
+      - A. D. Friend
+      - C. Hauck
+      - G. Krinner
+      - M. Langer
+      - P. A. Miller
+      - C. Beer
+      date: 2015-07-22
+      journal: The Cryosphere
+      title: Site-level model intercomparison of high latitude and high altitude soil
+        thermal dynamics in tundra and barren landscapes
+      doi: 10.5194/tc-9-1343-2015
+      issn: 1994-0424
+      volume: '9'
+      issue: '4'
+      firstpage: '1343'
+      lastpage: '1361'
+    - authors:
+      - S. Chadburn
+      - E. Burke
+      - R. Essery
+      - J. Boike
+      - M. Langer
+      - M. Heikenfeld
+      - P. Cox
+      - P. Friedlingstein
+      date: 2015-05-21
+      journal: Geoscientific Model Development Discussions
+      title: An improved representation of physical permafrost dynamics in the JULES land
+        surface model
+      doi: 10.5194/gmdd-8-715-2015
+      issn: 1991-962X
+      volume: '8'
+      issue: '1'
+      firstpage: '715'
+      lastpage: '759'
+    - authors:
+      - S. E. Chadburn
+      - E. J. Burke
+      - R. L. H. Essery
+      - J. Boike
+      - M. Langer
+      - M. Heikenfeld
+      - P. M. Cox
+      - P. Friedlingstein
+      date: 2015-03-25
+      journal: The Cryosphere Discussions
+      title: Impact of model developments on present and future simulations of permafrost
+        in a global land-surface model
+      doi: 10.5194/tcd-9-1965-2015
+      issn: 1994-0440
+      volume: '9'
+      issue: '2'
+      firstpage: '1965'
+      lastpage: '2012'
+    - authors:
+      - Altug Ekici
+      - Christian Beer
+      - Laszlo H. Hajdu
+      - Andrew D. Friend
+      - Paul Miller
+      - Nitin Chaudhary
+      - Shushi Peng
+      - Gerhard Krinner
+      - Sarah Chadburn
+      - Eleanor Burke
+      - Julia Boike
+      - Moritz Langer
+      - Antoine Marmy
+      - Christian Hauck
+      date: 2014-06-18
+      title: Site-level model intercomparison of cold-region specific soil physics in
+        different landscape types
+    - authors:
+      - Sarah Chadburn
+      - Ruth Gregory
+      date: 2013-04-23
+      journal: Classical and Quantum Gravity
+      title: Time dependent black holes and scalar hair
+      doi: 10.1088/0264-9381/31/19/195006
+      issn: 0264-9381
+      volume: '31'
+      issue: '19'
+    - authors:
+      - Anastasios Avgoustidis
+      - Sarah Chadburn
+      - Ruth Gregory
+      date: 2012-04-04
+      journal: 'Physical review D: Particles and fields'
+      title: Cosmic superstring trajectories in warped compactifications
+      doi: 10.1103/PhysRevD.86.063516
+      issn: 0556-2821
+      volume: '86'
+      issue: '6'
+    - authors:
+      - Eimear O'Callaghan
+      - Sarah Chadburn
+      - Ghazal Geshnizjani
+      - Ruth Gregory
+      - Ivonne Zavala
+      date: 2010-08-20
+      journal: Physical Review Letters
+      title: Effect of Extra Dimensions on Gravitational Waves from Cosmic Strings
+      doi: 10.1103/PHYSREVLETT.105.081602
+      issn: 1079-7114
+      volume: '105'
+      issue: '8'
+      firstpage: 081602
+    - authors:
+      - Eimear O'Callaghan
+      - Sarah Chadburn
+      - Ghazal Geshnizjani
+      - Ruth Gregory
+      - Ivonne Zavala
+      date: 2010-05-18
+      journal: Journal of Cosmology and Astroparticle Physics
+      title: The effect of extra dimensions on gravity wave bursts from cosmic string
+        cusps
+      doi: 10.1088/1475-7516/2010/09/013
+      issn: 1475-7516
+      volume: '2010'
+      issue: '9'
+    - authors:
+      - Eimear O'Callaghan
+      - Sarah Chadburn
+      - Ghazal Geshnizjani
+      - Ruth Gregory
+      - Ivonne Zavala
+      date: 2010-01-01
+      title: On detection of extra dimensions with gravity waves from cosmic strings
+

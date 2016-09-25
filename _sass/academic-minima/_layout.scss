@@ -247,3 +247,27 @@
     margin-right: auto;
   }
 }
+
+ul.publications {
+    list-style: none;
+    margin: 0;
+    li {
+        margin-bottom: 16px;
+    }
+    .title {
+        display: block;
+    }
+    .authors {
+        display: block;
+        font-style: italic;
+    }
+    .journal-info {
+        color: $grey-color;
+        font-size: 0.9rem;
+    }
+    .year {
+        float: right;
+        color: $grey-color;
+        font-size: 0.9rem;
+    }
+}
