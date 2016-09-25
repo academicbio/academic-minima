@@ -13,6 +13,7 @@ profile_picture: profile.jpeg
 
 institute_name: Mars University
 institute_logo: logo.jpg
+institute_url: https://en.wikipedia.org/wiki/Mars_University
 
 # Build settings
 markdown: kramdown

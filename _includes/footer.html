@@ -13,7 +13,13 @@
             {% endif %}
           </li>
           {% if site.institute_name %}
-          <li>{{ site.institute_name }}</li>
+            {% if site.institute_url %}
+            <a href="{{ site.institute_url | escape }}">
+            {% endif %}
+            <li>{{ site.institute_name }}</li>
+            {% if site.institute_url %}
+            </a>
+            {% endif %}
           {% endif %}
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>

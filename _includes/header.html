@@ -29,7 +29,13 @@
     
     {% if site.institute_logo %}
       <div class="navigation-logo">
-        <img src="{{ site.institute_logo | prepend: '/' | prepend: base }}" class="institute-logo" alt="{{ site.institute_name }} logo"></img>
+        {% if site.institute_url %}
+        <a href="{{ site.institute_url | escape }}">
+        {% endif %}
+        <img src="{{ site.institute_logo | prepend: '/' | prepend: base }}" class="institute-logo" alt="{{ site.institute_name | escape }} logo"></img>
+        {% if site.institute_url %}
+        </a>
+        {% endif %}
       </div>
     {% endif %}
 
