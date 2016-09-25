@@ -1,4 +1,4 @@
-# minima
+# academic-minima
 
 *Academic-Minima is a Jekyll theme for academics*. It is based on Jekyll's default theme but has been tweaked to bemore appropriate for a personal academic website.
 
@@ -45,7 +45,7 @@ Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll/minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jpallen/academic-minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
