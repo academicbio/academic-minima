@@ -3,7 +3,11 @@
   <li class="article">
       <span class="title">
         {% if paper.url %}
-          {% assign paper_url = paper.url %}
+          {% if paper.url contains "http://" or paper.url contains "https://" %}
+            {% assign paper_url = paper.url %}
+          {% else %}
+            {% assign paper_url = "http://" | append: paper.url %}
+          {% endif %}
         {% else if paper.url == nil and paper.doi %}
           {% assign paper_url = "http://dx.doi.org/" | append: paper.doi %}
         {% endif %}
@@ -19,7 +23,7 @@
         {% if paper.volume %}
           <span class="volume">{{ paper.volume | escape }}</span>{% if paper.number %}<span class="number">({{ paper.number | escape }})</span>{% endif %}{% if paper.pages %},{% else %}.{% endif %}
         {% endif %}
-        {% if paper.papers %}
+        {% if paper.pages %}
           <span class="pages">{{ paper.pages | escape }}</span>.
         {% endif %}
       <span>

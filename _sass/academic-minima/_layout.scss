@@ -39,14 +39,14 @@
         }
         
         &.active {
-          padding-bottom: 7px;
-          margin-bottom: -1px;
-          border-bottom: 2px solid $grey-color-dark;
-          @include media-query($on-palm) {
-            border-bottom: none;
-            padding-bottom: 8px;
-            margin-bottom: 0;
-          }
+            padding-bottom: 7px;
+            margin-bottom: -1px;
+            border-bottom: 2px solid $grey-color-dark;
+            @include media-query($on-palm) {
+                border-bottom: none;
+                padding-bottom: 8px;
+                margin-bottom: 0;
+            }
         }
     }
 
@@ -96,28 +96,28 @@
 }
 
 .navigation-wrapper.has-logo {
-  .navigation-links {
-    width: 70%;
-    float: left;
-    @include media-query($on-palm) {
-      width: 100%;
+    .navigation-links {
+        width: 70%;
+        float: left;
+        @include media-query($on-palm) {
+            width: 100%;
+        }
     }
-  }
-  
-  .navigation-logo {
-    width: 30%;
-    float: left;
-    padding: 12px;
-    box-sizing: border-box;
-    text-align: right;
-    height: 95px;
-    img {
-      max-height: 100%;
+    
+    .navigation-logo {
+        width: 30%;
+        float: left;
+        padding: 12px;
+        box-sizing: border-box;
+        text-align: right;
+        height: 95px;
+        img {
+            max-height: 100%;
+        }
+        @include media-query($on-palm) {
+            display: none;
+        }
     }
-    @include media-query($on-palm) {
-      display: none;
-    }
-  }
 }
 
 /**
@@ -183,8 +183,6 @@
     font-size: 24px;
 }
 
-
-
 /**
  * Posts
  */
@@ -231,21 +229,21 @@
 }
 
 .profile-picture {
-  float: left;
-  margin-right: $spacing-unit;
-  margin-bottom: $spacing-unit;
-  max-width: 40%;
-  border: 6px solid #ddd;
-  border-radius: 6px;
-  box-sizing: border-box;
-  
-  @include media-query($on-palm) {
-    display: block;
-    float: none;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    float: left;
+    margin-right: $spacing-unit;
+    margin-bottom: $spacing-unit;
+    max-width: 40%;
+    border: 6px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+    @include media-query($on-palm) {
+        display: block;
+        float: none;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 ul.publications {

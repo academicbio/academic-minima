@@ -17,8 +17,9 @@
         </a>
 
         <div class="trigger">
-          <a class="page-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | prepend: base }}" >Home</a>
-          {% for my_page in site.pages %}
+          <a class="page-link {% if page.url == '/' %}active{% endif %}" href="{{ '/index.html' | prepend: base }}" >Home</a>
+          {% assign sorted_pages = site.pages | sort:"order" %}
+          {% for my_page in sorted_pages %}
             {% if my_page.title %}
             <a class="page-link {% if page.url == my_page.url %}active{% endif %}" href="{{ my_page.url | prepend: base }}" >{{ my_page.title | escape }}</a>
             {% endif %}
