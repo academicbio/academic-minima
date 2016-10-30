@@ -8,8 +8,12 @@
           {% else %}
             {% assign paper_url = "http://" | append: paper.url %}
           {% endif %}
-        {% else if paper.url == nil and paper.doi %}
-          {% assign paper_url = "http://dx.doi.org/" | append: paper.doi %}
+        {% else %}
+          {% if paper.doi %}
+            {% assign paper_url = "http://dx.doi.org/" | append: paper.doi %}
+          {% else %}
+            {% assign paper_url = nil %}
+          {% endif %}
         {% endif %}
         {% if paper_url %}<a href="{{ paper_url | escape }}">{% endif %}
           {{ paper.title | escape }}
