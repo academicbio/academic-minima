@@ -9,7 +9,7 @@
 Add this line to your Jekyll site's Gemfile:
 
 ```ruby
-gem "academic-minima"
+gem "academic-minima", git: "https://github.com/academicbio/academic-minima.git"
 ```
 
 And add this line to your Jekyll site:
