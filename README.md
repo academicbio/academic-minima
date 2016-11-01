@@ -1,6 +1,6 @@
 # academic-minima
 
-*Academic-Minima is a Jekyll theme for academics*. It is based on Jekyll's default theme but has been tweaked to bemore appropriate for a personal academic website.
+*Academic-Minima is a Jekyll theme for academics*. It is based on Jekyll's default theme but has been tweaked to be more appropriate for a personal academic website.
 
 ![academic-minima theme preview](/screenshot.png)
 
