@@ -153,6 +153,13 @@
     margin-bottom: $spacing-unit / 2;
 }
 
+.footer-text {
+  border-top: 1px solid $grey-color-light;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: $spacing-unit / 2 0;
+}
+
 /**
  * Page content
  */

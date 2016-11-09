@@ -28,7 +28,10 @@
       <div class="footer-col">
       </div>
     </div>
-
   </div>
+  
+  {% if site.footer %}
+  <div class="footer-text">{{ site.footer }}</div>
+  {% endif %}
 
 </footer>
